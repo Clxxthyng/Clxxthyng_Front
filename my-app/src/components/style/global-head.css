@@ -1,0 +1,58 @@
+header {
+    position: relative;
+    width: 100vi;
+    height: 60px;
+}
+
+header .logo {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    position: absolute;
+    top: 50%;
+    right: 160px;
+    transform: translate(0, -50%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 70px;
+}
+
+nav ul li:last-child {
+    margin: 0;
+}
+
+nav .profile {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
