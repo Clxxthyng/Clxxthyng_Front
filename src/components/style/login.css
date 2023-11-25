@@ -1,1 +1,153 @@
-#login
+#login {
+    position: absolute;
+    top: 0;
+    width: 100vi;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+#login .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 664px;
+    height: 822px;
+    border-radius: 45px;
+    background-color: white;
+}
+
+
+#login .login img {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 50px;
+    top: 48px;
+}
+
+#login .login h1 {
+    position: absolute;
+    top: 219px;
+
+    color: #7F20B6;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#login .login p {
+    position: absolute;
+    top: 281px;
+
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#login .login .id {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    position: absolute;
+    top: 368px;
+
+    width: 501px;
+    height: 59px;
+    border: 1px solid #BA4CFA;
+    border-radius: 8px;
+}
+
+#login .login .id input {
+    margin-left: 20px;
+    width: 84%;
+    height: 50%;
+
+    border: none;
+}
+
+#login .login .password {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    position: absolute;
+    top: 446px;
+
+    width: 501px;
+    height: 59px;
+    border: 1px solid #BA4CFA;
+    border-radius: 8px;
+}
+
+#login .login .password input {
+    margin-left: 20px;
+    width: 84%;
+    height: 50%;
+
+    border: none;
+}
+
+#login .login .password .invisibility {
+    width: 24px;
+    height: 24px;
+    top: 18px;
+    right: 17px;
+}
+
+#login .login .autologin {
+    position: inherit;
+    top: 522px;
+    left: 82px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: auto;
+    height: auto;
+}
+
+#login .login .autologin div input {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #BA4CFA;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#login .login .autologin div input:checked {
+    background: #BA4CFA;
+    border: none;
+}
+
+#login .login .autologin span {
+    margin-left: 9px;
+    margin-top: -1px;
+}
+
+#login .login .submit {
+    position: absolute;
+    top: 579px;
+
+    width: 501px;
+    height: 59px;
+    border-radius: 5px;
+    border: 1px solid #BA4CFA;
+    background-color: white;
+    color: #BA4CFA;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
