@@ -21,11 +21,11 @@ header a {
     color: black;
 }
 
-nav {
+header nav {
     float: right;
 }
 
-nav ul {
+header nav ul {
     position: absolute;
     top: 50%;
     right: 160px;
@@ -36,16 +36,16 @@ nav ul {
     justify-content: center;
 }
 
-nav ul li {
+header nav ul li {
     float: left;
     margin-right: 70px;
 }
 
-nav ul li:last-child {
+header nav ul li:last-child {
     margin: 0;
 }
 
-nav .profile {
+header nav .profile {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
