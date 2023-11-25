@@ -1,12 +1,10 @@
 import './App.css';
-import GlobalHeader from "./components/global-header";
-import Login from "./components/login"
+import Header from "./components/header";
 
 function App() {
   return (
     <div id="Main">
-      <GlobalHeader />
-      <Login />
+      <Header />
     </div>
   );
 }

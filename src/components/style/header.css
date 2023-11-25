@@ -1,0 +1,23 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100vi;
+    height: 174px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+#header .welcomeText {
+    width: 100vi;
+    text-align: center;
+    font-family: Inter, serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+#header .welcomeText .clxxthyng {
+    color: #7F20B6;
+}
