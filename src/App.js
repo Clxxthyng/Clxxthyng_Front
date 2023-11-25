@@ -8,9 +8,9 @@ function App() {
     <div id="Main">
       <Header name={name}/>
       <div id={"sums"}>
-        <Sums type="border" />
-        <Sums type="event" />
-        <Sums type="messenger" />
+        <Sums type="border" developing="true" />
+        <Sums type="event" developing="true" />
+        <Sums type="messenger" developing="true" />
       </div>
     </div>
   );
