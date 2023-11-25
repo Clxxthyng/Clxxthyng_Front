@@ -2,6 +2,8 @@ header {
     position: relative;
     width: 100vi;
     height: 60px;
+
+    border-bottom: 1px solid black;
 }
 
 header .logo {
