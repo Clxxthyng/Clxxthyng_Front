@@ -3,7 +3,7 @@ header {
     width: 100vi;
     height: 60px;
 
-    border-bottom: 1px solid black;
+    box-shadow: 0 0 2px 0 black inset;
 }
 
 header .logo {

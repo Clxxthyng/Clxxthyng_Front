@@ -1,0 +1,38 @@
+#sum {
+    position: relative;
+
+    margin-top: 20px;
+    display: flex;
+    width: calc( (100vi - 60px) / 3 );
+    height: calc( 100vh - 274px );
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+
+    background: #FFF;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+#sum h1 {
+    position: absolute;
+    top: 33px;
+
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+#sum .viewer {
+    position: absolute;
+    bottom: 24px;
+
+    width: calc( 100% - 57px );
+    height: calc( 100% - 114px );
+
+    background: #F4F4F4;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25) inset;
+
+}
